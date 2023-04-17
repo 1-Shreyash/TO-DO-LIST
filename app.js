@@ -10,7 +10,7 @@ function update(){
               <div class="c1">${index+1}</div>
               <div class="c2">${element[0]}</div>
               <div class="c2">${element[1]}</div>
-              <div class="c1"><button onclick="Delete(${index})" class="delbtn">Delete</button></div>
+              <div class="c1 delb"><button onclick="Delete(${index})" class="delbtn">Delete</button></div>
             </div>
             `
         })

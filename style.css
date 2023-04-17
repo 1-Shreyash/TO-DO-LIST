@@ -118,7 +118,7 @@ table{
     /* height:100%; */
     /* border : 1px solid red; */
     /* text-align: center; */
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     padding:0 2vw 0 0;
 }
 button{
@@ -134,4 +134,55 @@ button{
 }
 button:hover{
     box-shadow: 0.1vw 0.1vw 2vw #00000050 inset;
+}
+
+/* Adding responsiveness */
+@media screen and (max-width:420px) {
+    .page{
+        width: 90%;
+        height: 80%;
+    }
+    .head{
+        font-size: 10vw;
+    }
+    .input1{
+        flex-direction: column;
+    }
+    input{
+        padding: 0.3vw 1vw;
+        width: 70%;
+        border: 1px solid rgb(177, 175, 175);
+        font-size: 4vw;
+        margin: 5px !important;
+        border-radius: 5px;
+    }
+    button{
+        padding:1vw;
+        font-size: 3vw;
+        background-color: rgb(45, 130, 248);
+        color:white;
+        border-radius: 1vw;
+        border:none;
+    }
+    .tbody{
+        font-size: 3vw;
+        height: 70%;
+    }
+    .tbody2{
+        font-size: 4vw;
+    }
+    .tbody2 .c2{
+        width: 35%;
+        padding:0 2vw 0 2vw;
+    }
+    .tbody .c2{
+        width: 35%;
+        padding:0 2vw 0 2vw;
+    }
+    .delb{
+        width: 20%;
+    }
+    .head{
+        font-size: 6vw !important;
+    }
 }
