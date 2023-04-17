@@ -16,7 +16,6 @@
 .page{
     height: 95%;
     width: 80%;
-    /* border: 1px solid red; */
     background: url("notebook.png");
     background-size: 150% 120%;
     background-repeat: none;
@@ -30,7 +29,6 @@
 .container{
     height: 90%;
     width: 90% !important;
-    /* border: solid 1px black; */
 }
 .head{
     align-self: flex-start;
@@ -52,19 +50,8 @@ input{
     margin: 10px !important;
     border-radius: 5px;
 }
-/* .btnAdd{
-    height:30px;
-    width:100px;
-    margin: 10px;
-    font-size: 15px;
-    color:white;
-    background-color: rgb(29, 110, 241);
-    border-radius: 5px;
-    border: none;
-} */
 .tb{
     height: 50vh;
-    /* overflow: scroll; */
 }
 table, th, td {
     border:1px solid black;
@@ -85,7 +72,6 @@ table{
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* min-height: 4vh; */
     justify-content: center;
     align-items: center;
     padding: 1vw 0;
@@ -94,15 +80,11 @@ table{
 .c1{
     width:10%;
     height:100%;
-    /* border : 1px solid red; */
     text-align: center;
 }
 .tbody .c2{
     width: 40%;
     align-self: flex-start;
-    /* height:100%; */
-    /* border : 1px solid red; */
-    /* text-align: center; */
     text-overflow: ellipsis;
     padding:0 2vw 0 0;
 }
@@ -115,10 +97,6 @@ table{
 .tbody2 .c2{
     width: 40%;
     align-self: center;
-    /* height:100%; */
-    /* border : 1px solid red; */
-    /* text-align: center; */
-    /* text-overflow: ellipsis; */
     padding:0 2vw 0 0;
 }
 button{
@@ -137,7 +115,7 @@ button:hover{
 }
 
 /* Adding responsiveness */
-@media screen and (max-width:420px) {
+@media screen and (max-width:500px) {
     .page{
         width: 90%;
         height: 80%;
