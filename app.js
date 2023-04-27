@@ -35,6 +35,8 @@ function Adding(){
 
     //add elements to the table
     update()
+    document.getElementById("title").value = null;
+    document.getElementById("description").value = null;
 }
 add = document.getElementById("add");
 add.addEventListener("click",Adding)
